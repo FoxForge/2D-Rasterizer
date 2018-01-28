@@ -1,0 +1,29 @@
+#pragma once
+
+#include "TinyRasterTypes.h"
+#include "Rasterizer.h"
+namespace AssignmentTests {
+	//Test 01: solid lines one pixel thickness
+	void AssignmentTest01(Rasterizer *rasterizer);
+
+	//Test 02: lines with gradient colours and thickness > 1
+	void AssignmentTest02(Rasterizer *rasterizer);
+
+	//Test 03: unfilled polygons
+	void AssignmentTest03(Rasterizer *rasterizer);
+
+	//Test 04: simple solid filled polygons
+	void AssignmentTest04(Rasterizer *rasterizer);
+
+	//Test 05: complex solid filled polygons
+	void AssignmentTest05(Rasterizer *rasterizer);
+
+	//Test 06: overlapping filled polygons alpha blending
+	void AssignmentTest06(Rasterizer *rasterizer);
+
+	//Test 07: interpolated filled polygons
+	void AssignmentTest07(Rasterizer *rasterizer);
+
+	//Test 08: A mix of filled and unfilled circle
+	void AssignmentTest08(Rasterizer *rasterizer);
+}
